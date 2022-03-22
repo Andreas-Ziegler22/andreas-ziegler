@@ -1,9 +1,11 @@
-function Home(){
-  return (<div>
-    <h1>Test two</h1>
-    <p> cool </p>
-    <div>it works</div>
-  </div>)
+function Home() {
+  return (
+    <div>
+      <h1>Test 4</h1>
+      <p> cool </p>
+      <div></div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
