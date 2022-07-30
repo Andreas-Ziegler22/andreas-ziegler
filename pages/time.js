@@ -15,7 +15,7 @@ export async function getStaticProps() {
   console.log("> backend");
   console.log("> add 5 sec delay");
 
-  await delay(5000);
+  // await delay(5000);
   const staticDate = new Date();
   const staticDateString = staticDate.toGMTString();
 
