@@ -3,8 +3,10 @@ import Navegator from "../components/Navigator";
 export default function Home() {
   return (
     <div>
-      <Navegator text="Home" cor="red" />
-      <Navegator text="About" />
+      <Navegator navLink="Home" />
+      <Navegator navLink="About" />
+      <Navegator navLink="Test1" />
+      <Navegator navLink="Test2" />
     </div>
   );
 }

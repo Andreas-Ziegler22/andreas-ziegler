@@ -6,7 +6,7 @@ export default function Navegator(props) {
       className={styles.navegator}
       style={{ backgroundColor: props.cor ?? "background-color: dodgerblue" }}
     >
-      {props.text}
+      {props.navLink}
     </div>
   );
 }
