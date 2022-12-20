@@ -4,9 +4,8 @@ import LayoutHeader from "../components/LayoutHeader";
 function test2() {
   return (
     <div>
-      <LayoutHeader>
-        <h1>Teste 2</h1>
-        <Header title="Test 1" />
+      <LayoutHeader title="Test 2">
+        <Header title="" />
       </LayoutHeader>
     </div>
   );

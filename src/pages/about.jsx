@@ -1,13 +1,9 @@
 import LayoutHeader from "../components/LayoutHeader";
 
-function About() {
+export default function About() {
   return (
     <div>
-      <LayoutHeader title="About">
-        <h1>About</h1>
-      </LayoutHeader>
+      <LayoutHeader title="About"></LayoutHeader>
     </div>
   );
 }
-
-export default About;
