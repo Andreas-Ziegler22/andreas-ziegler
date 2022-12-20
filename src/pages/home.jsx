@@ -1,12 +1,14 @@
+import Header from "../components/Header";
 import LayoutHeader from "../components/LayoutHeader";
 
 function Home() {
   return (
-    <LayoutHeader title="Home">
-      <div>
+    <div>
+      <LayoutHeader>
+        <Header title="About" />
         <h1>Home</h1>
-      </div>
-    </LayoutHeader>
+      </LayoutHeader>
+    </div>
   );
 }
 

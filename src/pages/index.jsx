@@ -1,12 +1,12 @@
-import Navegator from "../components/Navigator";
+import Navigator from "../components/Navigator";
 
 export default function Home() {
   return (
     <div>
-      <Navegator navLink="Home" />
-      <Navegator navLink="About" />
-      <Navegator navLink="Test1" />
-      <Navegator navLink="Test2" />
+      <Navigator navLink="Home" />
+      <Navigator navLink="About" />
+      <Navigator navLink="Test1" />
+      <Navigator navLink="Test2" />
     </div>
   );
 }

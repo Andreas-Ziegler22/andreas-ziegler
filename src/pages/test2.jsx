@@ -5,6 +5,7 @@ function test2() {
   return (
     <div>
       <LayoutHeader>
+        <h1>Teste 2</h1>
         <Header title="Test 1" />
       </LayoutHeader>
     </div>

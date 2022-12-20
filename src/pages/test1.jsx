@@ -6,6 +6,7 @@ function test1() {
     <div>
       <LayoutHeader>
         <Header title="Test 1" />
+        <h1>Teste 1</h1>
       </LayoutHeader>
     </div>
   );
